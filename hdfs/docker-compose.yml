@@ -1,0 +1,14 @@
+version: "3"
+services:
+  namenode:
+    image: sequenceiq/hadoop-docker:latest
+    container_name: namenode
+    ports:
+      - "50070:50070"
+    volumes:
+      - D:\Works\Docker\Projects\Big Data Sample System\hdfs\name-node:/hadoop/dfs/name
+  datanode:
+    image: sequenceiq/hadoop-docker:latest
+    container_name: datanode
+    volumes:
+      - D:\Works\Docker\Projects\Big Data Sample System\hdfs\data-node:/hadoop/dfs/data
