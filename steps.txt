@@ -1,0 +1,4 @@
+1- Produce data when container run
+2- Choose a data storage tech for storage and up it when container run
+3- Store data what have started to be produced
+4- 
